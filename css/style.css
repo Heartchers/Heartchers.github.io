@@ -1,12 +1,61 @@
-* {
-  background-color: rgba(0, 0, 0, 1);
-  background: rgba(0, 0, 0, 1);
-  display: block;
-  color: white;
-  border: 0px;
-  padding: 0px;
+/**************************************
+STATIC LAYOUT CSS
+**************************************/
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
 }
-.col-md-6 {
-  margin: auto;
-  width: 100%;
+
+header {
+	width: 960px;
+}
+
+nav, section {
+  float: left;
+}
+
+nav {
+  width: 200px;
+  margin-right: 10px;
+}
+
+section {
+  width: 750px;
+}
+
+
+
+/**************************************
+CSS TO MAKE THE EXAMPLE LOOK PRETTY
+**************************************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #00000;
+  color: #FFF;
+  font-family: Helvetica;
+  text-align: center;
+  margin: 0;
+}
+
+header,
+nav,
+section {
+  border: 1px solid rgba(255,255,255,0.8);
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+nav, section {
+  padding: 200px 0;
 }
