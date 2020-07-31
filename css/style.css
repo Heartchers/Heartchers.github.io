@@ -1,0 +1,18 @@
+* {
+  background-color: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 1);
+  display: block;
+  color: white;
+  border: 0px;
+  padding: 0px;
+}
+.col-md-6 {
+  margin: auto;
+  width: 100%;
+}
+title {
+  color: white;
+  background: #208e6;
+  padding: 90px 50px 80px 60px;
+  text-align: center;
+}
